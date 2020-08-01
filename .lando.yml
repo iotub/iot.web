@@ -5,7 +5,8 @@ config:
 services:
   nodejs:
     type: node
+    port: 8000
     globals:
       gatsby-cli: latest
-    command: npm install
+    command: npm start
 
