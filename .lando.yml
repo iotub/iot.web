@@ -1,0 +1,4 @@
+name: web-iot
+recipe: lemp
+config:
+  webroot: public
