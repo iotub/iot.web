@@ -1,0 +1,11 @@
+name: iotub-web
+recipe: lemp
+config:
+  webroot: public
+services:
+  nodejs:
+    type: node
+    globals:
+      gatsby-cli: latest
+    command: npm install
+
